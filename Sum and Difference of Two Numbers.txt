@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a;
+    int b;
+    float c;
+    float d;
+    scanf("%d %d",&a,&b);
+    scanf("%f %f",&c,&d);
+    int i,j;
+    float k,l;
+    i=a+b;
+    j=a-b;
+    k=c+d;
+    l=c-d;
+    printf("%d ",i);
+    printf("%d\n",j);
+    printf("%.1f ",k);
+    printf("%.1f",l);
+    return 0;
+}
